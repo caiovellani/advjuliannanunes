@@ -18,13 +18,13 @@ export function SocialLinks() {
   return (
     <div className="pt-8 flex justify-between gap-8">
       <Link href={whatsappLink} target="_blank" rel="noopener noreferrer">
-        <WhatsappLogo className="size-8 text-[#AA895D]" />
+        <WhatsappLogo className="size-8 text-zinc-100" />
       </Link>
       <Link href={instagramLink} target="_blank" rel="noopener noreferrer">
-        <InstagramLogo className="size-8 text-[#AA895D]" />
+        <InstagramLogo className="size-8 text-zinc-100" />
       </Link>
       <Link href={linkedinLink} target="_blank" rel="noopener noreferrer">
-        <LinkedinLogo className="size-8 text-[#AA895D]" />
+        <LinkedinLogo className="size-8 text-zinc-100" />
       </Link>
     </div>
   )

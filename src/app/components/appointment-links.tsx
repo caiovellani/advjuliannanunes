@@ -24,7 +24,7 @@ export function AppointmentLinks() {
         href={`https://wa.me/${phoneNumber}?text=${messageAppointment}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="w-[350px] bg-amber-50/80 text-black rounded-xl border p-3 flex justify-between items-center"
+        className="w-[350px] border border-[#aa895d] bg-amber-50/80 text-black rounded-xl p-3 flex justify-between items-center"
       >
         Agendar atendimento
         <Export className="size-6" />
@@ -33,7 +33,7 @@ export function AppointmentLinks() {
         href={`https://wa.me/${phoneNumber}?text=${messageRetiree}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="w-[350px]  bg-amber-50/80 text-black rounded-xl border p-3 flex justify-between items-center"
+        className="w-[350px] bg-amber-50/80 text-black rounded-xl border border-[#aa895d] p-3 flex justify-between items-center"
       >
         Quero me aposentar
         <Export className="size-6" />
@@ -42,7 +42,7 @@ export function AppointmentLinks() {
         href={`https://wa.me/${phoneNumber}?text=${messageRetirementReview}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="w-[350px]  bg-amber-50/80 text-black rounded-xl border p-3 flex justify-between items-center"
+        className="w-[350px] border border-[#aa895d] bg-amber-50/80 text-black rounded-xl p-3 flex justify-between items-center"
       >
         Revisão de aposentadoria
         <Export className="size-6" />
@@ -51,7 +51,7 @@ export function AppointmentLinks() {
         href={`https://wa.me/${phoneNumber}?text=${messagePensionPlanning}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="w-[350px]  bg-amber-50/80 text-black rounded-xl border p-3 flex justify-between items-center"
+        className="w-[350px] border border-[#aa895d] bg-amber-50/80 text-black rounded-xl p-3 flex justify-between items-center"
       >
         Planejamento previdenciário
         <Export className="size-6" />
