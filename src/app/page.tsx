@@ -10,6 +10,7 @@ import {
 import logo from '@/../public/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import julianna from '@/../public/julianna.png'
 
 export default function Home() {
   const phoneNumber = '5521982837633'
@@ -34,8 +35,12 @@ export default function Home() {
   return (
     <main className="flex items-center justify-center max-w-3xl p-9">
       <div className="flex flex-col items-center">
-        <div className="rounded-full size-24 flex items-center justify-center relative">
-          <Image src={logo} alt="Logo JN" className="object-cover size-36" />
+        <div className="rounded-full border border-[#AA895D] size-24 overflow-hidden relative">
+          <Image
+            src={julianna}
+            alt="Logo JN"
+            className="object-cover w-full h-full"
+          />
         </div>
         <div className="pt-8 flex flex-col">
           <p className="text-center font-bold text-xl bg-gradient-to-r from-[#aa895d] via-[#cba86e] to-[#aa895d] bg-clip-text text-transparent">
